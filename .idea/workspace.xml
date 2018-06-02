@@ -20,25 +20,25 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            <state relative-caret-position="147">
+              <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="91" column="38" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="38" />
+            <state relative-caret-position="44">
+              <caret line="101" column="12" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
+            <state relative-caret-position="-98">
               <caret line="11" column="34" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="34" />
             </state>
           </provider>
@@ -81,8 +81,9 @@
         <option value="$PROJECT_DIR$/node_modules/server.js" />
         <option value="$PROJECT_DIR$/handler.js" />
         <option value="$PROJECT_DIR$/router.js" />
-        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -113,6 +114,11 @@
             <path>
               <item name="genaro-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="genaro-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="genaro-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="genaro-api" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,23 +173,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527906299685</updated>
-      <workItem from="1527906301054" duration="10255000" />
+      <workItem from="1527906301054" duration="13568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10255000" />
+    <option name="totallyTimeSpent" value="13568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="29" width="1260" height="684" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32996634" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32996634" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
@@ -221,12 +227,18 @@
     <entry file="file://$PROJECT_DIR$/uploads/701d5230-6640-11e8-bf20-f104a47e89df.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/handler.js">
+    <entry file="file://$PROJECT_DIR$/downloads/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -235,24 +247,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/handler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="91" column="38" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="38" />
+        <state relative-caret-position="147">
+          <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
+        <state relative-caret-position="-98">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="101" column="12" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="12" />
         </state>
       </provider>
     </entry>

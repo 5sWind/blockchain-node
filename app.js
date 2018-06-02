@@ -24,6 +24,17 @@ router.get('/bucket/all', function(request, response) {
     })
 });
 
+router.post('/bucket/create', function(request, response) {
+    var name = request.post.name;
+    response.writeHead(200, {'Content-type': 'application/json'});
+    libgenaro.createBucket("naive_" + name, function (err, result) {
+        if (err) {
+            response.end(JSON.stringify({success: false, msg: err}))
+        }
+        response.end(JSON.stringify(result));
+    })
+});
+
 router.get('/bucket/create/:name', function(request, response) {
     response.writeHead(200, {'Content-type': 'application/json'});
     libgenaro.createBucket(request.params.name, function (err, result) {
@@ -88,7 +99,7 @@ router.get('/file/:bucketId/:id', function(request, response) {
 
 router.post('/file/upload', function(request, response) {
     var filedata = request.post.filedata;
-    var data = request.post.data
+    var data = request.post.data;
     var bucketId = request.post.bucket;
 
     var filename = uuidv1() + ".json";
@@ -102,7 +113,7 @@ router.post('/file/upload', function(request, response) {
                 if (err) {
                     response.end(JSON.stringify({success: false, msg: err}));
                 }
-                response.end(JSON.stringify({success: true, fileId: fileId}));
+                response.end(JSON.stringify({success: true, fileId: fileId, data: data}));
             }
         })
     });

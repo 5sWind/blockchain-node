@@ -28,7 +28,11 @@ const filePath = './test.txt';
   console.log(result);
 }); */
 
-/* libgenaro.createBucket("user_1", function (err, result) {
+libgenaro.createBucket("naive_user_1", function (err, result) {
+  console.log(result);
+})
+
+/* libgenaro.deleteBucket("f612fb4caab687a701877099", function (err, result) {
   console.log(result);
 }) */
 
