@@ -36,7 +36,7 @@ router.get('/bucket/create/:name', function(request, response) {
 router.get('/file/:bucketId/:id', function(request, response) {
     response.writeHead(200, {'Content-type': 'application/json'});
 
-    var filename = uuidv1() + ".json";
+    var filename = "downloads/" + uuidv1() + ".json";
 
     libgenaro.resolveFile(request.params.bucketId, request.params.id, filename, {
         progressCallback: function(progress, downloadedBytes, totalBytes) {

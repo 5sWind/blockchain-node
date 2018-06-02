@@ -17,7 +17,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
+            <state relative-caret-position="183">
               <caret line="32" column="2" selection-start-line="30" selection-start-column="3" selection-end-line="32" selection-end-column="2" />
             </state>
           </provider>
@@ -26,8 +26,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="191">
+              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -165,12 +165,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527906299685</updated>
-      <workItem from="1527906301054" duration="6496000" />
+      <workItem from="1527906301054" duration="6874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6496000" />
+    <option name="totallyTimeSpent" value="6874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="29" width="1260" height="684" extended-state="0" />
@@ -213,17 +213,16 @@
     <entry file="file://$PROJECT_DIR$/uploads/a9978a50-6639-11e8-8ee8-e3a43245b263.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/61200a70-6640-11e8-9144-15b1ca3eb67c.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/701d5230-6640-11e8-bf20-f104a47e89df.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-120">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -234,17 +233,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
+        <state relative-caret-position="183">
           <caret line="32" column="2" selection-start-line="30" selection-start-column="3" selection-end-line="32" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="191">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
         </state>
       </provider>
     </entry>
