@@ -33,6 +33,22 @@ router.get('/bucket/create/:name', function(request, response) {
         response.end(JSON.stringify(result));
     })
 });
+
+router.get('/file/:bucketId', function(request, response) {
+    response.writeHead(200, {'Content-type': 'application/json'});
+
+    var filename = "downloads/" + uuidv1() + ".json";
+
+    libgenaro.listFiles(request.params.bucketId, function (err, result) {
+        if (err) {
+            response.end(JSON.stringify({success: false, msg: err}));
+        }
+
+        response.end(JSON.stringify(result));
+    });
+});
+
+
 router.get('/file/:bucketId/:id', function(request, response) {
     response.writeHead(200, {'Content-type': 'application/json'});
 
