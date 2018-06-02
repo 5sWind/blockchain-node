@@ -48,6 +48,18 @@ router.get('/file/:bucketId', function(request, response) {
     });
 });
 
+router.get('/bucket/delete/:bucketId', function(request, response) {
+    response.writeHead(200, {'Content-type': 'application/json'});
+
+    libgenaro.deleteBucket(request.params.bucketId, function (err, result) {
+        if (err) {
+            response.end(JSON.stringify({success: false, msg: err}));
+        }
+
+        response.end(JSON.stringify({success: true, msg: err}));
+    });
+});
+
 
 router.get('/file/:bucketId/:id', function(request, response) {
     response.writeHead(200, {'Content-type': 'application/json'});

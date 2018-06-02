@@ -24,9 +24,9 @@ const filePath = './test.txt';
     }
 }); */
 
-libgenaro.listFiles(bucketId, function (err, result) {
+/* libgenaro.listFiles(bucketId, function (err, result) {
   console.log(result);
-});
+}); */
 
 /* libgenaro.createBucket("user_1", function (err, result) {
   console.log(result);
