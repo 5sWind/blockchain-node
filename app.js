@@ -99,7 +99,7 @@ router.get('/file/:bucketId/:id', function(request, response) {
 
 router.post('/file/upload', function(request, response) {
     var filedata = request.post.filedata;
-    var data = request.post.data;
+    var data = JSON.parse(request.post.data);
     var bucketId = request.post.bucket;
 
     var filename = uuidv1() + ".json";
