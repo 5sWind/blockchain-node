@@ -28,13 +28,13 @@ const filePath = './test.txt';
   console.log(result);
 }); */
 
-libgenaro.createBucket("naive_user_1", function (err, result) {
-  console.log(result);
-})
-
-/* libgenaro.deleteBucket("f612fb4caab687a701877099", function (err, result) {
+/* libgenaro.createBucket("naive_user_1", function (err, result) {
   console.log(result);
 }) */
+
+libgenaro.deleteBucket("10df802099e6ea97baaddaa8", function (err, result) {
+  console.log(result);
+})
 
 /* libgenaro.deleteFile(bucketId, "15b4ea6780ad8405bad67dd7", function (err, result) {
   console.log(result);
